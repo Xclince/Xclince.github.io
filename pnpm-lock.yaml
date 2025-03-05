@@ -6,7 +6,6 @@ settings:
 
 importers:
 
-
   .:
     devDependencies:
       '@vuepress/bundler-vite':
