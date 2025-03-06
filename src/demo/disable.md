@@ -11,10 +11,11 @@ navbar: false
 sidebar: false
 
 breadcrumb: false
-pageInfo: false
-contributors: false
 
-lastUpdated: false
+pageInfo: true
+contributors: true
+lastUpdated: true
+
 prev: false
 next: false
 comment: false
