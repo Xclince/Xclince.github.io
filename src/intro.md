@@ -42,7 +42,7 @@ if (coffee.isEmpty()) {
 }
 ```
 
-!(https://img.shields.io/badge/反内耗认证-已通过-success)   
+![技术观验证](https://img.shields.io/badge/反内耗认证-已通过-success)   
 
 注：所有彩蛋支持 Ctrl+F5 强制刷新，快乐指数自动翻倍 🌟
 ```diff
