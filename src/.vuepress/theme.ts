@@ -28,7 +28,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "一个不知名的测试，不定期发布测试相关文章。",
+    description: "一个不知名的小测试，该账号主要是记录自己的经验心得，分享一些在学习或者工作中遇到的有趣的事儿，技术只是人生的一部分，快乐才是永恒的主题。",
     intro: "/intro.html",
     medias: {
       Baidu: "https://example.com",
@@ -80,9 +80,9 @@ export default hopeTheme({
   },
 
   // 多语言配置
-  metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
-  },
+  // metaLocales: {
+  //   editLink: "在 GitHub 上编辑此页",
+  // },
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
   // hotReload: true,
