@@ -56,8 +56,3 @@ Markdown × 幽默感 × 好奇心
 主题配色：晚霞紫 & 咖啡棕
 ```
 💡 技术是工具，快乐才是答案。点击文章，随机解锁一个生活彩蛋~
-<!-- hidden_start -->
-[![跳转GitHub](https://img.shields.io/badge/GitHub-点击跳转-blue)](https://github.com)
-_上次编辑于 2023-11-05_  
-**贡献者**: @Alice @Bob
-<!-- hidden_end -->
