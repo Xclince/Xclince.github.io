@@ -2,6 +2,11 @@
 icon: circle-info
 cover: /assets/images/cover3.jpg
 ---
+editLink: false
+
+contributors: false
+
+lastUpdated: false
 
 # 介绍页
 
@@ -35,11 +40,11 @@ cover: /assets/images/cover3.jpg
 
 ```javascript [点击展开技术哲学]
 // 非典型技术观核心算法
-if (coffee.isEmpty()) {
-   brewCoffee(); // 优先保证快乐燃料
-} else {
-   keepCoding().then(shareFunnyBugs);
-}
+   if (coffee.isEmpty()) {
+      brewCoffee(); // 优先保证快乐燃料
+   } else {
+      keepCoding().then(shareFunnyBugs);
+   }
 ```
 
 ![技术观验证](https://img.shields.io/badge/反内耗认证-已通过-success)   
