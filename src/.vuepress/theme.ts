@@ -23,7 +23,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: " ",
+  // footer: " ",
   displayFooter: true,
 
   // 博客相关
