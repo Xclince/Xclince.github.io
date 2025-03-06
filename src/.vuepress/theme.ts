@@ -23,12 +23,12 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  // footer: " ",
   displayFooter: true,
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    description: "一个不知名的测试，不定期发布测试相关文章。",
     intro: "/intro.html",
     medias: {
       Baidu: "https://example.com",
