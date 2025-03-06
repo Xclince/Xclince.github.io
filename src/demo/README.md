@@ -1,6 +1,9 @@
 ---
-title: 主要功能与配置演示
+title: 学习笔记
 index: false
+editLink: false
+contributors: false
+lastUpdated: false
 icon: laptop-code
 category:
   - 使用指南
