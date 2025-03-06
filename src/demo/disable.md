@@ -12,8 +12,8 @@ sidebar: false
 
 breadcrumb: false
 
-pageInfo: true
-
+pageInfo: false
+editLink:false
 contributors: true
 lastUpdated: true
 
