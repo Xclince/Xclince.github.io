@@ -7,14 +7,6 @@ heroImage: /mmtouxiang.jpg
 heroText: 吴鑫程的博客
 heroFullScreen: true
 tagline: 项目的开始从设计开始，项目的成功从测试开始——质量是永远不能松的那根弦！
-<div class="tagline-container">
-  <h2 class="tagline" style="animation-delay: 0.3s;">
-    🚀 代码如诗，BUG 是幽默的韵脚
-  </h2>
-  <p class="tagline" style="animation-delay: 0.6s;">
-    探索技术与生活的有趣碰撞 → 
-  </p>
-</div>
 projects:
   - icon: folder-open
     name: 项目名称
