@@ -16,9 +16,9 @@ pageInfo: false
 
 editLink: false
 
-contributors: true
+contributors: false
 
-lastUpdated: true
+lastUpdated: false
 
 prev: false
 next: false
