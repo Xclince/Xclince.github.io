@@ -17,6 +17,15 @@ editLink: false
 contributors: false
 lastUpdated: false
 copy: true
+
+category:
+  - 使用指南
+# 一个页面可以有多个标签
+tag:
+  - 页面配置
+  - 使用指南
+# 此页面会在文章列表置顶
+sticky: true
 ---
 <!-- more -->
 ## 页面标题
