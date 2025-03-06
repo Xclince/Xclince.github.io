@@ -42,12 +42,9 @@ if (coffee.isEmpty()) {
 }
 ```
 
-![技术观验证](https://img.shields.io/badge/反内耗认证-已通过-success)  
-[ [📜 完整技术白皮书 ](https://example.com) | [🎮 开启实验模式](javascript:void(0)) ]  
-
-
+![技术观验证](https://img.shields.io/badge/反内耗认证-已通过-success)   
+```diff
 注：所有彩蛋支持 Ctrl+F5 强制刷新，快乐指数自动翻倍 🌟
-
 {
   "人生版本": "v2.5.0-beta",
   "更新日志": "新增『摸鱼算法优化模块』"
@@ -56,6 +53,6 @@ if (coffee.isEmpty()) {
 Markdown × 幽默感 × 好奇心
 编译环境：​生活版 VS Code​
 主题配色：晚霞紫 & 咖啡棕
-
+```
 💡 技术是工具，快乐才是答案。点击文章，随机解锁一个生活彩蛋~
 
