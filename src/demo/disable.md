@@ -13,6 +13,7 @@ sidebar: false
 breadcrumb: false
 
 pageInfo: true
+
 contributors: true
 lastUpdated: true
 
