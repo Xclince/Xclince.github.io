@@ -10,15 +10,15 @@ tag:
 navbar: false
 sidebar: false
 
-breadcrumb:false
+breadcrumb: false
 
-pageInfo:false
+pageInfo: false
 
-editLink:false
+editLink: false
 
-contributors:true
+contributors: true
 
-lastUpdated:true
+lastUpdated: true
 
 prev: false
 next: false
