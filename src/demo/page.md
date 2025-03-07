@@ -30,11 +30,11 @@ sticky: true
 <!-- more -->
 ## 页面标题
 
-#The first H1 title in Markdown will be regarded as page title.
+# The first H1 title in Markdown will be regarded as page title.
 
-#Markdown 中的第一个 H1 标题会被视为页面标题。
+# Markdown 中的第一个 H1 标题会被视为页面标题。
 
-#你可以在 Markdown 的 Frontmatter 中设置页面标题。
+# 你可以在 Markdown 的 Frontmatter 中设置页面标题。
 
 ```md
 ---
@@ -44,16 +44,16 @@ title: 页面标题
 
 ## 页面信息
 
-#你可以在 Markdown 的 Frontmatter 中设置页面信息。
+# 你可以在 Markdown 的 Frontmatter 中设置页面信息。
 
-#- 作者设置为 Ms.Hope。
-#- 写作日期为 2020 年 1 月 1 日
-#- 分类为 “使用指南”
-#- 标签为 “页面配置” 和 “使用指南”
+# - 作者设置为 Ms.Hope。
+# - 写作日期为 2020 年 1 月 1 日
+# - 分类为 “使用指南”
+# - 标签为 “页面配置” 和 “使用指南”
 
 ## 页面内容
 
-#你可以自由在这里书写你的 Markdown。
+# 你可以自由在这里书写你的 Markdown。
 
 ::: tip 图片引入
 
