@@ -14,7 +14,6 @@ date: 2020-01-01
 # 此页面会出现在星标文章中
 star: true
 editLink: false
-// contributors: true
 lastUpdated: true
 copy: true
 
