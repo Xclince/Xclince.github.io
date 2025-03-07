@@ -8,11 +8,8 @@ title: 博客主页
 heroImage: /mmtouxiang.jpg
 heroText: 吴鑫程的博客
 heroFullScreen: true
-tagline_effect:
-  text: "项目的开始从设计开始，项目的成功从测试开始——质量是永远不能松的那根弦！"
-  speed: "3s"        # 动画总时长
-  steps: "30"        # 模拟逐字步数
-  cursor_color: "#3C3C43"  # 光标颜色
+tagline: 项目的开始从设计开始，项目的成功从测试开始——质量是永远不能松的那根弦！
+
 projects:
   - icon: folder-open
     name: 项目名称
