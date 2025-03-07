@@ -8,13 +8,14 @@ icon: file
 # 这是侧边栏的顺序
 order: 1
 # 设置作者
-author: 曹云友
+author: 吴鑫程
 # 设置写作时间
 date: 2020-01-01
 # 此页面会出现在星标文章中
 star: true
 editLink: false
-lastUpdated: true
+contributors: false
+lastUpdated: false
 copy: true
 
 category:
