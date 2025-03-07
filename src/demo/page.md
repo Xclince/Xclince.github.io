@@ -60,9 +60,7 @@ title: 页面标题
 
 ---
 
-<sub>上次编辑于: 2025/3/7 11:28:35 
-贡献者: 曹云友</sub>
-<div style="float: right; text-align: right;">
-  <sub>上次编辑于: 2025/3/7 11:28:35</sub>
-  <sub>贡献者: 曹云友</sub>
+<div style="text-align: right;">
+  <font color="#3C3C43">上次编辑于: </font><font color="#3C3C43C7">2023-03-21</font><br>
+  <font color="#3C3C43">贡献者: </font><font color="#3C3C43C7">曹云友</font>
 </div>
