@@ -9,6 +9,11 @@ heroImage: /mmtouxiang.jpg
 heroText: 吴鑫程的博客
 heroFullScreen: true
 tagline: 项目的开始从设计开始，项目的成功从测试开始——质量是永远不能松的那根弦！
+tagline_effect:
+  text: "项目的开始从设计开始，项目的成功从测试开始——质量是永远不能松的那根弦！"
+  speed: "3s"        # 动画总时长
+  steps: "30"        # 模拟逐字步数
+  cursor_color: "#3C3C43"  # 光标颜色
 projects:
   - icon: folder-open
     name: 项目名称
@@ -40,33 +45,5 @@ projects:
     desc: 自定义详细介绍
     link: https://你的自定义链接
 
-
-<style>
-  /* 打字机动画定义 */
-  @keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-  }
-
-  @keyframes blink-caret {
-    from, to { border-color: transparent; }
-    50% { border-color: currentColor; }
-  }
-
-  /* 动画应用 */
-  .typewriter-effect {
-    font-family: monospace;
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 2px solid;  /* 光标颜色继承文字色 */
-    animation: 
-      typing 3s steps(40, end) forwards,
-      blink-caret 0.75s step-end infinite;
-    max-width: fit-content;  /* 自适应文本宽度 */
-  }
-</style>
-
-<!-- 动态绑定 tagline -->
-<h1 class="typewriter-effect">{{ page.tagline }}</h1>
 ---
 
