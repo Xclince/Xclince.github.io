@@ -15,7 +15,7 @@ export default navbar([
         children: [
           { text: "回首2024，展望2025", icon: "pen-to-square", link: "1" },
           { text: "苹果2", icon: "pen-to-square", link: "2" },
-          { text: "苹果2", icon: "pen-to-square", link: "3" },
+          { text: "苹果9999", icon: "pen-to-square", link: "3" },
         ],
       },
       {
