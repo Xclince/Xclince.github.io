@@ -13,11 +13,16 @@ author: 吴鑫程
 date: 2020-01-01
 # 此页面会出现在星标文章中
 star: true
+# 设置跳转Github是否展示
 editLink: false
+# 设置贡献者是否展示
 contributors: false
+# 设置上次编辑于时间是否展示
 lastUpdated: false
-copy: true
+copy: false
 
+# - 分类为 “使用指南”
+# - 标签为 “页面配置” 和 “使用指南”
 category:
   - 使用指南
 # 一个页面可以有多个标签
@@ -37,21 +42,10 @@ sticky: true
   渲染后不可见。
 -->
 
----
 ```md
 title: 页面标题
 ```
-<!-- 
-## 页面信息
 
-//  你可以在 Markdown 的 Frontmatter 中设置页面信息。
-// - 作者设置为 Ms.Hope。
-// - 写作日期为 2020 年 1 月 1 日
-// - 分类为 “使用指南”
-// - 标签为 “页面配置” 和 “使用指南”
-
-// 你可以自由在这里书写你的 Markdown。
--->
 ## 页面内容
 ::: tip 图片引入
  - 你可以将图片和 Markdown 文件放置在一起使用相对路径进行引用。
