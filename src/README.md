@@ -1,17 +1,15 @@
 ---
 home: true
 portfolio: true
-titles:
-  - 天才少年侦探
-  - 小兰的青梅竹马
-  - 黑衣组织的最大对手
+
 layout: BlogHome
 icon: house
 title: 博客主页
 heroImage: /mmtouxiang.jpg
 heroText: 吴鑫程的博客
 heroFullScreen: true
-tagline: 项目的开始从设计开始，项目的成功从测试开始——质量是永远不能松的那根弦！
+# tagline: 项目的开始从设计开始，项目的成功从测试开始——质量是永远不能松的那根弦！
+tagline:<span class="typewriter">Welcome to the Future of Embedded Systems</span>
 projects:
   - icon: folder-open
     name: 项目名称
@@ -45,3 +43,22 @@ projects:
 
 // footer: 一位不知名的小测试
 ---
+<style>
+  .typewriter {
+    font-family: monospace;
+    overflow: hidden;
+    border-right: 2px solid #3C3C43;  /* 光标颜色 */
+    white-space: nowrap;
+    animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #3C3C43; }  /* 光标闪烁颜色 */
+  }
+</style>
