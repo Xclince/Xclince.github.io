@@ -10,12 +10,12 @@ export default sidebar({
       link: "demo/",
       children: "structure",
     },
-    {
-      text: "博文",
-      icon: "book",
-      prefix: "posts/",
-      children: "structure",
-    },
+    // {
+    //   text: "博文",
+    //   icon: "book",
+    //   prefix: "posts/",
+    //   children: "structure",
+    // },
     {
       text: "测试心得",
       icon: "book",
