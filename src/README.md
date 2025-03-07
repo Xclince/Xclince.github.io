@@ -8,7 +8,7 @@ title: 博客主页
 heroImage: /mmtouxiang.jpg
 heroText: 吴鑫程的博客
 heroFullScreen: true
-tagline:<span class="typewriter">Welcome to the Future of Embedded Systems</span>
+tagline: 项目的开始从设计开始，项目的成功从测试开始——质量是永远不能松的那根弦！
 projects:
   - icon: folder-open
     name: 项目名称
