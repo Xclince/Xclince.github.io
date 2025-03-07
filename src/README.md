@@ -40,7 +40,7 @@ projects:
     desc: 自定义详细介绍
     link: https://你的自定义链接
 
-// footer: 一位不知名的小测试
+
 <style>
   /* 打字机动画定义 */
   @keyframes typing {
