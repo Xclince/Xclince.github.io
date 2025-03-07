@@ -63,3 +63,8 @@ Markdown × 幽默感 × 好奇心
 主题配色：晚霞紫 & 咖啡棕
 ```
 💡 技术是工具，快乐才是答案。点击文章，随机解锁一个生活彩蛋~
+
+<div style="float: right; text-align: right;">
+  <sub>上次编辑于: <span style="color: rgba(60, 60, 67, 0.78);">2024/5/16 22:40:49</span></sub><br>
+  <sub>贡献者: <span style="color: rgba(60, 60, 67, 0.78);">吴鑫程</span></sub>
+</div>
