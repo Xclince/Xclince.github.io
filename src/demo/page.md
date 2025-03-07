@@ -15,7 +15,7 @@ date: 2020-01-01
 star: true
 editLink: false
 contributors: false
-lastUpdated: 2000/3/7 10:47:08
+lastUpdated: 2020-01-01 10:47:08
 copy: true
 
 category:
@@ -30,7 +30,7 @@ sticky: true
 <!-- more -->
 ## 页面标题
 
-//  The first H1 title in Markdown will be regarded as page title.
+-- The first H1 title in Markdown will be regarded as page title.
 
 //  Markdown 中的第一个 H1 标题会被视为页面标题。
 
