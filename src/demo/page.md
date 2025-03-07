@@ -14,8 +14,8 @@ date: 2020-01-01
 # 此页面会出现在星标文章中
 star: true
 editLink: false
-contributors: false
-lastUpdated: false
+contributors: true
+lastUpdated: true
 copy: true
 
 category:
@@ -40,8 +40,6 @@ sticky: true
 ```md
 title: 页面标题
 ```
----
-
 <!-- 
 ## 页面信息
 
