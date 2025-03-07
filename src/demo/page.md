@@ -60,11 +60,8 @@ title: 页面标题
 
 ---
 
-<div style="text-align: right;">
-  <font color="#3C3C43">上次编辑于: </font><font color="#3C3C43C7">2023-03-21</font><br>
-  <font color="#3C3C43">贡献者: </font><font color="#3C3C43C7">曹云友</font>
-</div>
+
 <div style="float: right; text-align: right;">
-  <sub>上次编辑于: <font color="#3C3C43C7; opacity: 0.78;">2024/5/16 22:40:49</font></sub><br>
+  <sub>上次编辑于: <span style="color: rgba(60, 60, 67, 0.78);">2024/5/16 22:40:49</span></sub><br>
   <sub>贡献者: <span style="color: rgba(60, 60, 67, 0.78);">曹云友</span></sub>
 </div>
