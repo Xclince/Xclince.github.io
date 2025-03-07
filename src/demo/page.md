@@ -58,5 +58,5 @@ title: 页面标题
 
 <div style="float: right; text-align: right;">
   <sub>上次编辑于: <span style="color: rgba(60, 60, 67, 0.78);">2024/5/16 22:40:49</span></sub><br>
-  <sub>贡献者: <span style="color: rgba(60, 60, 67, 0.78);">曹云友</span></sub>
+  <sub>贡献者: <span style="color: rgba(60, 60, 67, 0.78);">吴鑫程</span></sub>
 </div>
