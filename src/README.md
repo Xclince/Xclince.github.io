@@ -41,23 +41,32 @@ projects:
     link: https://你的自定义链接
 
 // footer: 一位不知名的小测试
----
 <style>
-  .typewriter {
-    font-family: monospace;
-    overflow: hidden;
-    border-right: 2px solid #3C3C43;  /* 光标颜色 */
-    white-space: nowrap;
-    animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
-  }
-
+  /* 打字机动画定义 */
   @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+    from { width: 0; }
+    to { width: 100%; }
   }
 
   @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: #3C3C43; }  /* 光标闪烁颜色 */
+    from, to { border-color: transparent; }
+    50% { border-color: currentColor; }
+  }
+
+  /* 动画应用 */
+  .typewriter-effect {
+    font-family: monospace;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;  /* 光标颜色继承文字色 */
+    animation: 
+      typing 3s steps(40, end) forwards,
+      blink-caret 0.75s step-end infinite;
+    max-width: fit-content;  /* 自适应文本宽度 */
   }
 </style>
+
+<!-- 动态绑定 tagline -->
+<h1 class="typewriter-effect">{{ page.tagline }}</h1>
+---
+
