@@ -8,7 +8,7 @@ icon: file
 # 这是侧边栏的顺序
 order: 1
 # 设置作者
-author: 吴鑫程
+author: 曹云友
 # 设置写作时间
 date: 2020-01-01
 # 此页面会出现在星标文章中
@@ -26,9 +26,6 @@ tag:
 # 此页面会在文章列表置顶
 sticky: true
 
-last_modified: 2023-03-21
-contributors:
-  - 曹云友
 ---
 <!-- more -->
 ## 页面标题
@@ -63,4 +60,8 @@ title: 页面标题
 
 ---
 
-<sub>上次编辑于: 2023-03-21 | 贡献者: 曹云友</sub>
+<sub>上次编辑于: 2025/3/7 11:28:35 
+贡献者: 曹云友</sub>
+<div style="float: right; text-align: right;">
+  <sub>上次编辑于: 2023-03-21 | 贡献者: 曹云友</sub>
+</div>
