@@ -65,6 +65,6 @@ title: 页面标题
   <font color="#3C3C43">贡献者: </font><font color="#3C3C43C7">曹云友</font>
 </div>
 <div style="float: right; text-align: right;">
-  <sub>上次编辑于: 2024/5/16 22:40:49</sub>
-  <sub>贡献者: <font color="#3C3C43C7">曹云友</font></sub>
+  <sub>上次编辑于: <font color="#3C3C43C7">2024/5/16 22:40:49</font></sub><br>
+  <sub>贡献者: <span style="color: rgba(60, 60, 67, 0.78);">曹云友</span></sub>
 </div>
