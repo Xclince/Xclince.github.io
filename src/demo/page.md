@@ -34,14 +34,9 @@ sticky: true
   这是多行注释，
   可以跨多行书写，
   渲染后不可见。
-
-
 -- The first H1 title in Markdown will be regarded as page title.
-
 //  Markdown 中的第一个 H1 标题会被视为页面标题。
-
 //  你可以在 Markdown 的 Frontmatter 中设置页面标题。
-
 -->
 
 ```md
@@ -49,7 +44,7 @@ sticky: true
 title: 页面标题
 ---
 ```
-
+<!-- 
 ## 页面信息
 
 //  你可以在 Markdown 的 Frontmatter 中设置页面信息。
@@ -62,14 +57,14 @@ title: 页面标题
 ## 页面内容
 
 // 你可以自由在这里书写你的 Markdown。
+-->
 
 ::: tip 图片引入
-
-// - 你可以将图片和 Markdown 文件放置在一起使用相对路径进行引用。
-// - 对于 `.vuepress/public` 文件夹的图片，请使用绝对链接 `/` 进行引用。
-
+ - 你可以将图片和 Markdown 文件放置在一起使用相对路径进行引用。
+ - 对于 `.vuepress/public` 文件夹的图片，请使用绝对链接 `/` 进行引用。
 :::
 
+<!-- 
 ## 组件
 
 // 每个 Markdown 页面都会被转换为一个 Vue 组件，这意味着你可以在 Markdown 中使用 Vue 语法：
@@ -127,4 +122,4 @@ const MyComponent = defineComponent({
 //   link: https://mister-hope.com
 //   background: rgba(253, 230, 138, 0.15)
 ---
-
+-->
