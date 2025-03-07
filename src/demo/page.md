@@ -63,5 +63,6 @@ title: 页面标题
 <sub>上次编辑于: 2025/3/7 11:28:35 
 贡献者: 曹云友</sub>
 <div style="float: right; text-align: right;">
-  <sub>上次编辑于: 2023-03-21 | 贡献者: 曹云友</sub>
+  <sub>上次编辑于: 2025/3/7 11:28:35 
+       贡献者: 曹云友</sub>
 </div>
