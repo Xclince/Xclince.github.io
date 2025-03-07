@@ -14,7 +14,7 @@ date: 2020-01-01
 # 此页面会出现在星标文章中
 star: true
 editLink: false
-contributors: true
+// contributors: true
 lastUpdated: true
 copy: true
 
@@ -31,8 +31,6 @@ sticky: true
 上次编辑于: 2023-03-21
 贡献者: 曹云友
 [//]: # METADATA END
-title: 博客标题
-date: 2023-03-20
 last_modified: 2023-03-21
 contributors:
   - 曹云友
