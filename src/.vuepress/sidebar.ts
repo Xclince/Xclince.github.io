@@ -10,12 +10,6 @@ export default sidebar({
       link: "demo/",
       children: "structure",
     },
-    // {
-    //   text: "博文",
-    //   icon: "book",
-    //   prefix: "posts/",
-    //   children: "structure",
-    // },
     {
       text: "测试心得",
       icon: "book",
@@ -23,10 +17,5 @@ export default sidebar({
       children: "structure",
     },
     "intro",
-    // {
-    //   text: "幻灯片",
-    //   icon: "person-chalkboard",
-    //   link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
-    // },
   ],
 });
