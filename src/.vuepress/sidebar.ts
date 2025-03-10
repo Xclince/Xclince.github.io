@@ -12,14 +12,14 @@ export default sidebar({
         {
           text: "基础知识",
           icon: "lightbulb",
-          prefix: "demo/basics/",
+          prefix: "basics/",
           collapsible: true,
           children: "structure"
         },
         {
           text: "测试体系",
           icon: "vial",
-          prefix: "demo/testing-system/",
+          prefix: "testing-system/",
           collapsible: true,
           children: [
             { 
@@ -47,7 +47,7 @@ export default sidebar({
         {
           text: "进阶专题",
           icon: "rocket",
-          prefix: "demo/advanced/",
+          prefix: "advanced/",
           collapsible: true,
           children: [
             "api-testing",
