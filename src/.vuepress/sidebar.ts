@@ -64,16 +64,3 @@ export default sidebar({
   ],
 });
 
-
-/* .vuepress/styles/palette.css */
-.sidebar-item .sidebar-link {
-  word-break: keep-all; /* 禁止链接文字换行 */
-}
-
-.sidebar-sub-item {
-  padding-left: 1.2rem !important; /* 增强缩进层级 */
-}
-
-.sidebar-group-items {
-  font-size: 0.95em; /* 子级字体缩小 */
-}
