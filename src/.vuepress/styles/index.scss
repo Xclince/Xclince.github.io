@@ -1,21 +1,29 @@
 /* .vuepress/styles/index.css */
 
-/* 二级菜单图标补偿对齐 */
-.sidebar-sub-items .has-icon {
-  /* 当父级有图标时，子项缩进补偿 */
-  padding-left: 1.8rem !important; 
-  position: relative;
-}
-
-/* 无图标子项的伪元素占位 */ 
-.sidebar-sub-items .sidebar-item:not(.has-icon)::before {
-  content: "";
-  display: inline-block;
-  width: 1.2rem; /* 与图标同宽 */
+/* 修复图标显示问题 */
+.sidebar-sub-items .iconfont,
+.sidebar-sub-items .iconify {
+  display: inline-block !important;
   margin-right: 0.6rem;
+  font-size: 1.1em; /* 保持与父级图标同尺寸 */
 }
 
-/* 多级菜单精确缩进 */
-.sidebar-sub-item .sidebar-sub-item {
-  padding-left: 2.4rem !important; /* 1.8rem(父级补偿) + 0.6rem(间隙) */
+/* 优化对齐逻辑 */
+.sidebar-sub-item:not(.has-icon) {
+  position: relative;
+  padding-left: 1.8rem;
+}
+
+/* 无图标项伪元素补偿 */
+.sidebar-sub-item:not(.has-icon)::before {
+  content: "";
+  position: absolute;
+  left: 0.3rem;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+/* 保留主题原生图标样式 */
+.sidebar-sub-item .icon-container {
+  position: static !important; /* 防止定位冲突 */
 }
