@@ -11,14 +11,14 @@
 /* 优化对齐逻辑 */
 .sidebar-sub-item:not(.has-icon) {
   position: relative;
-  padding-left: 1.8rem;
+  padding-left: 4.8rem;
 }
 
 /* 无图标项伪元素补偿 */
 .sidebar-sub-item:not(.has-icon)::before {
   content: "";
   position: absolute;
-  left: 2.3rem;
+  left: 4.3rem;
   width: 1.2rem;
   height: 1.2rem;
 }
