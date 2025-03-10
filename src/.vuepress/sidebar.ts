@@ -29,22 +29,30 @@ export default sidebar({
       prefix: "demo/",
       link: "demo/",
       children: [
-        // 原自动生成结构的基础上新增嵌套
-        "structure", // 保留原有自动生成结构
-        
-        // 新增测试体系子菜单
+        // 移除 "structure"，完全手动控制结构
+        {
+          text: "基础知识",
+          icon: "lightbulb",
+          children: ["test-theory", "case-design"]
+        },
         {
           text: "测试体系",
-          icon: "vial",
-          prefix: "testing-system/", // 实际路径为 demo/testing-system/
-          collapsible: true, // 可折叠
+          icon: "sitemap",
+          prefix: "testing-system/",
+          collapsible: true,
           children: [
-            "functional-testing", // 对应 demo/testing-system/functional-testing.md
+            {
+              text: "功能测试",
+              link: "functional-testing",
+              // 添加徽章标签增强可读性
+              badge: { text: "重点", color: "#FF6B6B" }
+            },
             {
               text: "进阶专题",
               icon: "rocket",
+              prefix: "advanced/",
               children: [
-                "api-testing",
+                "api-testing", 
                 "performance-testing"
               ]
             }
@@ -52,12 +60,20 @@ export default sidebar({
         }
       ]
     },
-    {
-      text: "测试心得",
-      icon: "book",
-      prefix: "posts/",
-      children: "structure",
-    },
-    "intro",
+    // 其他配置保持不变
   ],
 });
+
+
+/* .vuepress/styles/palette.css */
+.sidebar-item .sidebar-link {
+  word-break: keep-all; /* 禁止链接文字换行 */
+}
+
+.sidebar-sub-item {
+  padding-left: 1.2rem !important; /* 增强缩进层级 */
+}
+
+.sidebar-group-items {
+  font-size: 0.95em; /* 子级字体缩小 */
+}
