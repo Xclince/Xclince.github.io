@@ -26,6 +26,21 @@ export default sidebar({
               text: "功能测试",
               link: "functional-testing",
               badge: { text: "重点", color: "#FF6B6B" }
+            },
+            {  // 修正1：子项需要包裹成对象
+              text: "接口测试",
+              link: "api-testing",
+              badge: { text: "重点", color: "#FF6B6B" }
+            },
+            {  // 修正1：子项需要包裹成对象
+              text: "性能测试",
+              link: "performance-testing",
+              badge: { text: "重点", color: "#FF6B6B" }
+            },
+            {  // 修正1：子项需要包裹成对象
+              text: "自动化测试",
+              link: "automation-testing",
+              badge: { text: "重点", color: "#FF6B6B" }
             }
           ]
         },
