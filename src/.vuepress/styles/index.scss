@@ -1,1 +1,19 @@
-// place your custom styles here
+/* 控制所有层级的基础缩进 */
+.sidebar-sub-items {
+  padding-left: 1rem !important;
+}
+
+/* 二级菜单（如测试体系下的功能测试） */
+.sidebar-sub-item > .sidebar-link {
+  padding-left: 2.2rem !important; /* 图标宽度补偿 */
+}
+
+/* 三级菜单（如进阶专题下的子项） */
+.sidebar-sub-item .sidebar-sub-item > .sidebar-link {
+  padding-left: 3.4rem !important;
+}
+
+/* 折叠箭头对齐修正 */
+.sidebar-sub-item .sidebar-heading.collapsible::before {
+  left: 1.2rem;
+}
