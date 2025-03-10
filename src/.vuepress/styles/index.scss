@@ -1,19 +1,21 @@
-/* 控制所有层级的基础缩进 */
-.sidebar-sub-items {
-  padding-left: 1rem !important;
+/* .vuepress/styles/index.css */
+
+/* 二级菜单图标补偿对齐 */
+.sidebar-sub-items .has-icon {
+  /* 当父级有图标时，子项缩进补偿 */
+  padding-left: 1.8rem !important; 
+  position: relative;
 }
 
-/* 二级菜单（如测试体系下的功能测试） */
-.sidebar-sub-item > .sidebar-link {
-  padding-left: 2.2rem !important; /* 图标宽度补偿 */
+/* 无图标子项的伪元素占位 */ 
+.sidebar-sub-items .sidebar-item:not(.has-icon)::before {
+  content: "";
+  display: inline-block;
+  width: 1.2rem; /* 与图标同宽 */
+  margin-right: 0.6rem;
 }
 
-/* 三级菜单（如进阶专题下的子项） */
-.sidebar-sub-item .sidebar-sub-item > .sidebar-link {
-  padding-left: 3.4rem !important;
-}
-
-/* 折叠箭头对齐修正 */
-.sidebar-sub-item .sidebar-heading.collapsible::before {
-  left: 1.2rem;
+/* 多级菜单精确缩进 */
+.sidebar-sub-item .sidebar-sub-item {
+  padding-left: 2.4rem !important; /* 1.8rem(父级补偿) + 0.6rem(间隙) */
 }
