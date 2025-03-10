@@ -1,5 +1,52 @@
 import { sidebar } from "vuepress-theme-hope";
 
+export default sidebar({
+  "/": [
+    "",
+    {
+      text: "学习笔记",
+      icon: "laptop-code",
+      prefix: "demo/",
+      link: "demo/",
+      collapsible: true, // 允许整个分组折叠
+      children: [
+        // 三大平行可折叠模块
+        {
+          text: "基础知识",
+          icon: "lightbulb",
+          prefix: "basics/",
+          collapsible: true,
+          children: "structure" // 自动生成基础知识点文件
+        },
+        {
+          text: "测试体系",
+          icon: "vial",
+          prefix: "testing-system/",
+          collapsible: true,
+          children: [
+            "functional-testing",
+            "security-testing" // 新增安全测试条目
+          ]
+        },
+        {
+          text: "进阶专题",
+          icon: "rocket",
+          prefix: "advanced/",
+          collapsible: true,
+          children: [
+            "api-testing",
+            "performance-testing",
+            "chaos-engineering" // 新增混沌工程条目
+          ]
+        }
+      ]
+    },
+    // 保持其他配置不变
+  ],
+});
+
+
+
 // export default sidebar({
 //   "/": [
 //     "",
@@ -19,49 +66,3 @@ import { sidebar } from "vuepress-theme-hope";
 //     "intro",
 //   ],
 // });
-
-export default sidebar({
-  "/": [
-    "",
-    {
-      text: "学习笔记",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
-      children: [
-        // 移除 "structure"，完全手动控制结构
-        {
-          text: "基础知识",
-          icon: "lightbulb"
-          // children: ["test-theory", "case-design"]
-        },
-        {
-          text: "测试体系",
-          icon: "sitemap",
-          prefix: "testing-system/",
-          collapsible: true,
-          children: [
-            {
-              text: "功能测试",
-              link: "functional-testing",
-              // 添加徽章标签增强可读性
-              badge: { text: "重点", color: "#FF6B6B" }
-            },
-            
-          ]
-        }
-        {
-              text: "进阶专题",
-              icon: "rocket",
-              prefix: "advanced/",
-              children: [
-                "api-testing", 
-                "performance-testing"
-              ]
-            }
-      ]
-    },
-    // 其他配置保持不变
-  ],
-});
-
