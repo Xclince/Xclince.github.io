@@ -32,8 +32,8 @@ export default sidebar({
         // 移除 "structure"，完全手动控制结构
         {
           text: "基础知识",
-          icon: "lightbulb",
-          children: ["test-theory", "case-design"]
+          icon: "lightbulb"
+          // children: ["test-theory", "case-design"]
         },
         {
           text: "测试体系",
@@ -47,7 +47,10 @@ export default sidebar({
               // 添加徽章标签增强可读性
               badge: { text: "重点", color: "#FF6B6B" }
             },
-            {
+            
+          ]
+        }
+        {
               text: "进阶专题",
               icon: "rocket",
               prefix: "advanced/",
@@ -56,8 +59,6 @@ export default sidebar({
                 "performance-testing"
               ]
             }
-          ]
-        }
       ]
     },
     // 其他配置保持不变
