@@ -22,8 +22,7 @@ export default sidebar({
           prefix: "testing-system/",
           collapsible: true,
           children: [
-              "structure",
-            {  // 修正1：子项需要包裹成对象
+            { 
               text: "功能测试",
               link: "functional-testing",
               badge: { text: "重点", color: "#FF6B6B" }
