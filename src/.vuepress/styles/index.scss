@@ -1,29 +1,51 @@
+// /* .vuepress/styles/index.css */
+
+// /* 修复图标显示问题 */
+// .sidebar-sub-items .iconfont,
+// .sidebar-sub-items .iconify {
+//   display: inline-block !important;
+//   margin-right: 0.6rem;
+//   font-size: 1.1em; /* 保持与父级图标同尺寸 */
+// }
+
+// /* 优化对齐逻辑 */
+// .sidebar-sub-item:not(.has-icon) {
+//   position: relative;
+//   padding-left: 6rem;
+// }
+
+// /* 无图标项伪元素补偿 */
+// .sidebar-sub-item:not(.has-icon)::before {
+//   content: "";
+//   position: absolute;
+//   left: 5.2rem;
+//   width: 1.2rem;
+//   height: 1.2rem;
+// }
+
+// /* 保留主题原生图标样式 */
+// .sidebar-sub-item .icon-container {
+//   position: static !important; /* 防止定位冲突 */
+// }
 /* .vuepress/styles/index.css */
 
-/* 修复图标显示问题 */
-.sidebar-sub-items .iconfont,
-.sidebar-sub-items .iconify {
-  display: inline-block !important;
-  margin-right: 0.6rem;
-  font-size: 1.1em; /* 保持与父级图标同尺寸 */
-}
-
-/* 优化对齐逻辑 */
-.sidebar-sub-item:not(.has-icon) {
+/* 强制提升优先级 */
+.sidebar-sub-items > .sidebar-item:not(.has-icon) {
+  padding-left: 6rem !important; 
   position: relative;
-  padding-left: 6rem;
 }
 
-/* 无图标项伪元素补偿 */
-.sidebar-sub-item:not(.has-icon)::before {
+/* 伪元素精确定位 */
+.sidebar-sub-items > .sidebar-item:not(.has-icon)::before {
   content: "";
   position: absolute;
-  left: 5.2rem;
+  left: 4.5rem;  /* 与padding-left配合 */
   width: 1.2rem;
   height: 1.2rem;
+  background: url(no-icon-placeholder.svg) no-repeat; /* 可选占位图 */
 }
 
-/* 保留主题原生图标样式 */
-.sidebar-sub-item .icon-container {
-  position: static !important; /* 防止定位冲突 */
+/* 覆盖主题默认样式 */
+.vp-sidebar .vp-sidebar-group .vp-sidebar-item {
+  padding-inline-start: 0 !important;
 }
