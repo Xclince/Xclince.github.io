@@ -7,10 +7,9 @@ export default sidebar({
       text: "学习笔记",
       icon: "laptop-code",
       prefix: "demo/",
-      link: "demo/",
-      collapsible: true, // 允许整个分组折叠
+      collapsible: true,
       children: [
-        // 三大平行可折叠模块
+        // 原有结构保持不变
         {
           text: "基础知识",
           icon: "lightbulb",
@@ -24,8 +23,10 @@ export default sidebar({
           prefix: "testing-system/",
           collapsible: true,
           children: [
-            "functional-testing",
-            "security-testing" // 新增安全测试条目
+            text: "功能测试",
+            link: "functional-testing",
+              // 添加徽章标签增强可读性
+            badge: { text: "重点", color: "#FF6B6B" }
           ]
         },
         {
@@ -41,28 +42,25 @@ export default sidebar({
         }
       ]
     },
-    // 保持其他配置不变
+    // 新增测试心得模块（与学习笔记同级）
+    {
+      text: "测试心得",
+      icon: "book",
+      prefix: "posts/",
+      collapsible: true, // 可折叠整个模块
+      children: [
+        {
+          text: "年度总结",
+          icon: "calendar",
+          collapsible: true, // 子模块也可折叠
+          children: [
+            "2023-summary", // 对应 posts/2023-summary.md
+            "2024-plan"
+          ]
+        },
+        "case-study" // 同级其他文章
+      ]
+    },
+    "intro"
   ],
 });
-
-
-
-// export default sidebar({
-//   "/": [
-//     "",
-//     {
-//       text: "学习笔记",
-//       icon: "laptop-code",
-//       prefix: "demo/",
-//       link: "demo/",
-//       children: "structure",
-//     },
-//     {
-//       text: "测试心得",
-//       icon: "book",
-//       prefix: "posts/",
-//       children: "structure",
-//     },
-//     "intro",
-//   ],
-// });
