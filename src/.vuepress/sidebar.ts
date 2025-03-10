@@ -51,13 +51,12 @@ export default sidebar({
         {
           text: "年度总结",
           icon: "calendar",
+          prefix: "apple/",
           collapsible: true,
           children: [
             "2023-summary",
-            "2024-plan"
           ]
         },
-        "case-study"  // 修正2：字符串直接作为子项路径
       ]
     },
     "intro"
