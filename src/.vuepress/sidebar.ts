@@ -19,3 +19,18 @@ export default sidebar({
     "intro",
   ],
 });
+{
+  text: "测试体系",
+  icon: "vial",
+  prefix: "testing/",
+  children: [
+    {
+      text: "自动化测试",
+      children: ["web-automation", "api-testing"]
+    },
+    {
+      text: "性能测试",
+      children: ["load-testing", "stress-testing"]
+    }
+  ]
+}
