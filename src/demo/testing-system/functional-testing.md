@@ -8,6 +8,7 @@ editLink: false
 contributors: false
 lastUpdated: false
 copy.disableCopy: true
+copy.disableSelection: true
 ---
 
 
