@@ -7,7 +7,6 @@ star: true
 editLink: false
 contributors: false
 lastUpdated: false
-copy: false
 copy.disableCopy: true
 ---
 
