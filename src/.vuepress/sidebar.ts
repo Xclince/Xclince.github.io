@@ -70,6 +70,14 @@ export default sidebar({
           collapsible: true,
           children: [
             "2023-summary",
+          ]
+        },
+        {
+          text: "程序员996背后的真相",
+          icon: "calendar",
+          prefix: "apple/",
+          collapsible: true,
+          children: [
             "996背后的真相",
           ]
         },
