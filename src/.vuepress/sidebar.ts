@@ -73,10 +73,7 @@ export default sidebar({
           ]
         },
         {
-          text: "程序员996背后的真相",
-          icon: "calendar",
-          prefix: "apple/",
-          // collapsible: true,
+          text:"程序员996背后的真相"
           children: [
             "996背后的真相",
           ]
