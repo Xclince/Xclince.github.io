@@ -72,12 +72,7 @@ export default sidebar({
             "2023-summary",
           ]
         },
-        {
-          text:"程序员996背后的真相"
-          children: [
-            "996背后的真相",
-          ]
-        },
+          "996背后的真相",
       ]
     },
     "intro"
