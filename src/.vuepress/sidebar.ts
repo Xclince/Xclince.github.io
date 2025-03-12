@@ -70,6 +70,7 @@ export default sidebar({
           collapsible: true,
           children: [
             "2023-summary",
+            "996背后的真相",
           ]
         },
       ]
