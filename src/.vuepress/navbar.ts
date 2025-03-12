@@ -14,7 +14,7 @@ export default navbar([
         prefix: "apple/",
         children: [
           { text: "回首2024，展望2025", icon: "pen-to-square", link: "1" },
-          { text: "苹果2", icon: "pen-to-square", link: "2" },
+          { text: "互联网VS传统行业：程序员996背后的真相", icon: "pen-to-square", link: "2" },
           { text: "苹果9999", icon: "pen-to-square", link: "3" },
         ],
       },
