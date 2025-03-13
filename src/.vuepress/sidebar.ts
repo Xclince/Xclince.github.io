@@ -57,6 +57,24 @@ export default sidebar({
         }
       ]
     },
+    // {
+    //   text: "测试心得",
+    //   icon: "book",
+    //   prefix: "posts/",
+    //   collapsible: true,
+    //   children: [
+    //     {
+    //       text: "年度总结",
+    //       icon: "calendar",
+    //       prefix: "apple/",
+    //       collapsible: true,
+    //       children: [
+    //         "2023-summary",
+    //       ]
+    //     },
+    //       "996背后的真相",
+    //   ]
+    // },
     {
       text: "测试心得",
       icon: "book",
@@ -72,7 +90,13 @@ export default sidebar({
             "2023-summary",
           ]
         },
-          "996背后的真相",
+        // 将“996背后的真相”提升为与“年度总结”同级，并添加占位结构
+        {
+          text: "996背后的真相",
+          icon: "info", // 可选：添加图标保持视觉一致
+          collapsible: false, 
+          children: [] // 空数组避免缩进
+        }
       ]
     },
     "intro"
