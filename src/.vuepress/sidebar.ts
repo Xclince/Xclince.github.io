@@ -93,9 +93,10 @@ export default sidebar({
         // 将“996背后的真相”提升为与“年度总结”同级，并添加占位结构
         {
           text: "996背后的真相",
-          icon: "info", // 可选：添加图标保持视觉一致
-          collapsible: false, 
-          children: [] // 空数组避免缩进
+          icon: "article",          // 文章类型图标
+          link: "996-truth.md",     // 直接指向文章文件
+          // 保持与上方折叠项相同的缩进层级
+          _style: { paddingLeft: "1rem" } // 可选：强制对齐缩进
         }
       ]
     },
