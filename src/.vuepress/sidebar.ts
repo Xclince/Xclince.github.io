@@ -94,7 +94,7 @@ export default sidebar({
         {
           text: "996背后的真相",
           icon: "article",          // 文章类型图标
-          link: "996-truth.md",     // 直接指向文章文件
+          link: "996背后的真相.md",     // 直接指向文章文件
           // 保持与上方折叠项相同的缩进层级
           _style: { paddingLeft: "1rem" } // 可选：强制对齐缩进
         }
