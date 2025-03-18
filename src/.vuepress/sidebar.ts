@@ -50,31 +50,13 @@ export default sidebar({
           prefix: "advanced/",
           collapsible: true,
           children: [
-            "api-testing",
-            "performance-testing",
-            "chaos-engineering"
+            "001-test",
+            "002-test",
+            "003-test"
           ]
         }
       ]
     },
-    // {
-    //   text: "测试心得",
-    //   icon: "book",
-    //   prefix: "posts/",
-    //   collapsible: true,
-    //   children: [
-    //     {
-    //       text: "年度总结",
-    //       icon: "calendar",
-    //       prefix: "apple/",
-    //       collapsible: true,
-    //       children: [
-    //         "2023-summary",
-    //       ]
-    //     },
-    //       "996背后的真相",
-    //   ]
-    // },
     {
       text: "测试心得",
       icon: "book",
@@ -95,7 +77,6 @@ export default sidebar({
           text: "996背后的真相",
           // icon: "file",          // 文章类型图标
           link: "996背后的真相.md",     // 直接指向文章文件
-          // 保持与上方折叠项相同的缩进层级
           _style: { paddingLeft: "1rem" } // 可选：强制对齐缩进
         }
       ]
