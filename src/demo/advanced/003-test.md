@@ -1,6 +1,6 @@
 ---
-title: 模板
-order: 1
+title: 模板3
+order: 3
 author: 吴鑫程
 date: 2020-01-01
 star: true
