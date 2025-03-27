@@ -16,22 +16,22 @@ export default sidebar({
           collapsible: true,
           children: [
             { 
-              text: "如何区分前后端bug（定位问题）",
+              text: "基础知识1",
               link: "000-test.md",
               badge: { text: "重点", color: "#FF6B6B" }
             },
             {  // 修正1：子项需要包裹成对象
-              text: "接口测试",
+              text: "如何区分前后端bug（定位问题）",
               link: "001-test.md",
               badge: { text: "重点", color: "#FF6B6B" }
             },
             {  // 修正1：子项需要包裹成对象
-              text: "性能测试",
+              text: "基础知识2",
               link: "002-test.md",
               badge: { text: "重点", color: "#FF6B6B" }
             },
             {  // 修正1：子项需要包裹成对象
-              text: "自动化测试",
+              text: "基础知识3",
               link: "003-test.md",
               badge: { text: "重点", color: "#FF6B6B" }
             }
