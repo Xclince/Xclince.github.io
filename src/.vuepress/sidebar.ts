@@ -14,7 +14,9 @@ export default sidebar({
           icon: "lightbulb",
           prefix: "basics/",
           collapsible: true,
-          children: " "
+          children: [
+            "01"  
+          ]
         },
         {
           text: "测试体系",
