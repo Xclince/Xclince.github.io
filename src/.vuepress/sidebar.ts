@@ -58,7 +58,7 @@ export default sidebar({
               badge: { text: "重点", color: "#FF6B6B" }
             },
             {  // 修正1：子项需要包裹成对象
-              text: "如何区分前后端bug（定位问题）",
+              text: "如何区分前后端bug",
               link: "001-test.md",
               badge: { text: "重点", color: "#FF6B6B" }
             },
