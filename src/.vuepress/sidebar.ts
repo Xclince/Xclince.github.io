@@ -14,29 +14,7 @@ export default sidebar({
           icon: "lightbulb",
           prefix: "basics/",
           collapsible: true,
-          children: [
-            { 
-              text: "基础知识1",
-              link: "000-test.md",
-              badge: { text: "重点", color: "#FF6B6B" }
-            },
-            {  // 修正1：子项需要包裹成对象
-              text: "如何区分前后端bug（定位问题）",
-              link: "001-test.md",
-              badge: { text: "重点", color: "#FF6B6B" }
-            },
-            {  // 修正1：子项需要包裹成对象
-              text: "基础知识2",
-              link: "002-test.md",
-              badge: { text: "重点", color: "#FF6B6B" }
-            },
-            {  // 修正1：子项需要包裹成对象
-              text: "基础知识3",
-              link: "003-test.md",
-              badge: { text: "重点", color: "#FF6B6B" }
-            }
-          ]
-
+          children: " "
         },
         {
           text: "测试体系",
@@ -72,9 +50,26 @@ export default sidebar({
           prefix: "advanced/",
           collapsible: true,
           children: [
-            "001-test",
-            "002-test",
-            "003-test"
+            { 
+              text: "基础知识1",
+              link: "000-test.md",
+              badge: { text: "重点", color: "#FF6B6B" }
+            },
+            {  // 修正1：子项需要包裹成对象
+              text: "如何区分前后端bug（定位问题）",
+              link: "001-test.md",
+              badge: { text: "重点", color: "#FF6B6B" }
+            },
+            {  // 修正1：子项需要包裹成对象
+              text: "基础知识2",
+              link: "002-test.md",
+              badge: { text: "重点", color: "#FF6B6B" }
+            },
+            {  // 修正1：子项需要包裹成对象
+              text: "基础知识3",
+              link: "003-test.md",
+              badge: { text: "重点", color: "#FF6B6B" }
+            }
           ]
         }
       ]
